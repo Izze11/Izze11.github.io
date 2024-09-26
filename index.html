@@ -3,40 +3,10 @@
 <HEAD>
     <TITLE>AJABAJA</TITLE>
     <link rel="stylesheet" href="styles.css" />
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password Protected Page</title>
-    <style>
-        body {
-            display: none; /* Hide the content initially */
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-
-        .hidden {
-            display: none;
-        }
-    </style>
 </HEAD>
 
 <BODY>
-    <div id="content" class="hidden">
-        <h1>Welcome to the Protected Page</h1>
-        <p>This content is protected by a password.</p>
-    </div>
 
-    <script>
-        const correctPassword = 'FrasseOliven'; // Set your password here
-        const userPassword = prompt("Please enter the password to access this page:");
-
-        if (userPassword === correctPassword) {
-            document.getElementById('content').classList.remove('hidden');
-            document.body.style.display = 'block'; // Show the content
-        } else {
-            alert("Incorrect password! Access denied.");
-        }
-    </script>
     <h1>AJABAJA</h1>
 
     <a href="index.html">Home</a>
